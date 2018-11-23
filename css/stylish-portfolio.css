@@ -23,6 +23,13 @@ body {
   padding-bottom: 7.5rem;
 }
 
+.bio-content-section {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  border-top: solid 10px #f2f2f2;
+  border-bottom: solid 10px #f2f2f2;
+}
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
@@ -380,9 +387,6 @@ a:hover, a:focus, a:active {
 }
 
 .parallax {
-  /* The image used */
-  background-image: url("../img/bg-elegantgreen.jpg");
-
   /* Set a specific height */
   height: 100%; 
 
@@ -391,5 +395,15 @@ a:hover, a:focus, a:active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-1 {
+  /* The image used */
+  background-image: url("../img/bg-flowerdesk.jpg");
+}
+
+.bg-2 {
+  /* The image used */
+  background-image: url("../img/bg-elegantgreen.jpg");
 }
 
